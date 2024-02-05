@@ -4,19 +4,127 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Index Page</title>
-    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/sass/main.scss" />
     <link
-      href="https://fonts.googleapis.com/css?family=Oregano"
+      href="https://fonts.googleapis.com/css?family=Roboto"
       rel="stylesheet"
     />
   </head>
   <body>
     {{> header }}
-    <h1>Hello World Test!</h1>
+
+    <section class="section--rustica">
+      <div class="section-rustica">
+        <div class="h1">Rustica</div>
+          <div class="subhead">Bio & Fair seit 1991</div>
+      </div>
+      <div class="button-shop">
+         <a href="/subpage.html">zum Shop</a>
+      </div>
+      
+    </section>
+    <section class="cafe-fair">
+      <table class="cafe-fair">
+        <div class="row">
+          <div class="col-1-of-2">
+            <img src="/images/cafe" alt="">
+            <h2>Rösterei & Cafè</h2>
+           
+          </div>
+          <div class="col-1-of-2">
+          col 1 of 2
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1-of-2">
+          col 1 of 2
+          </div>
+          <div class="col-1-of-2">
+          col 1 of 2
+          </div>
+      </div>
+      </table>
+    
+    </section>
+      
+    
+
     <main>
       <a href="/sub-page/">Link to Subpage</a>
       <div>Home</div>
     </main>
     <script src="/js/index.js" type="module"></script>
   </body>
+
+<!--
+    <section class="grid-test">
+
+      <div class="row">
+          <div class="col-1-of-2">
+          col 1 of 2
+          </div>
+          <div class="col-1-of-2">
+          col 1 of 2
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-3">
+            col 1 of 3
+        </div>
+        <div class="col-1-of-3">
+            col 1 of 3
+        </div>
+        <div class="col-1-of-3">
+            col 1 of 3
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-3">
+            col 1 of 3
+        </div>
+        <div class="col-2-of-3">
+            col 2 of 3
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-4">
+            col 1 of 4
+        </div>
+        <div class="col-1-of-4">
+            col 1 of 4
+        </div>
+        <div class="col-1-of-4">
+            col 1 of 4
+        </div>
+        <div class="col-1-of-4">
+            col 1 of 4
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-4">
+            col 1 of 4
+        </div>
+        <div class="col-2-of-4">
+            col 2 of 4
+        </div>
+        <div class="col-1-of-4">
+            col 1 of 4
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-4">
+            col 1 of 4
+        </div>
+        <div class="col-3-of-4">
+            col 3 of 4
+        </div>
+      </div>
+  </section>
+-->
+  <footer></footer>
 </html>
