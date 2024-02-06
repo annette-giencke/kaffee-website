@@ -1,9 +1,15 @@
-.grid {
-    .grid {
+.kaffee-costarica {
+    .gallery-costa-grid {
         background-color: $white;
         width: auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+
+        &--costa-item {
+            grid-template-rows: min-content;
+
+
+        }
 
     }
 }

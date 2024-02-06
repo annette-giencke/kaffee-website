@@ -3,19 +3,12 @@
     background-size: cover;
     background-position: center;
     height: 75vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 64px;
-    color: $white;
-    position: relative;
-    
-    &-grid {
-        background-color: $white;
+
+    &-nav-bar {
         width: auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-
+        background-color: $white;
     }
 }
+    
