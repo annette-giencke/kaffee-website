@@ -5,126 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Index Page</title>
     <link rel="stylesheet" href="/sass/main.scss" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
   </head>
   <body>
-    {{> header }}
-
-    <section class="section--rustica">
-      <div class="section-rustica">
-        <div class="h1">Rustica</div>
-          <div class="subhead">Bio & Fair seit 1991</div>
-      </div>
-      <div class="button-shop">
-         <a href="/subpage.html">zum Shop</a>
-      </div>
-      
-    </section>
-    <section class="cafe-fair">
-      <table class="cafe-fair">
-        <div class="row">
-          <div class="col-1-of-2">
-            <img src="/images/cafe" alt="">
-            <h2>Rösterei & Cafè</h2>
-           
-          </div>
-          <div class="col-1-of-2">
-          col 1 of 2
-          </div>
+      <!--{{> header }}-->
+    <header class="header">
+      <div class="header-grid">
+        <div class="nav">
+          <div class="logo">icon</div>
         </div>
-        <div class="row">
-          <div class="col-1-of-2">
-          col 1 of 2
-          </div>
-          <div class="col-1-of-2">
-          col 1 of 2
-          </div>
       </div>
-      </table>
-    
-    </section>
-      
-    
-
+    </header>
     <main>
-      <a href="/sub-page/">Link to Subpage</a>
-      <div>Home</div>
+    
+      <section class="rustica">
+        <h1 class="h1">
+          <span>Rustica</span>
+           <div class="subhead">Bio & Fair seit 1991</div>
+        </h1>
+        
+        <div class="button-shop">
+          <a href="/subpage.html">zum Shop</a>
+        </div>
+      </section>
+
+      <section class="cafe-fair">
+        <div class="container">
+          <div class="item--1">
+            <div class="h2">Rösterei & Café</div>
+              <p>Kaffee aus Kiel, direkt gehandelt und geröstet in der eigenen Rösterei, serviert im gemütlichen Café in der Innenstadt.</p>
+                <p>Komm uns besuchen!
+                Fraunhoferstr. 13, Kiel</p>
+                <p>Mo – Fr 8–18 Uhr
+                  Sa 11–18 Uhr</p>
+                </div>
+          <div class="item--2">
+            <!--   <div class="picture"></div>-->
+          </div>
+          <div class="item--3">
+            <div class="h3">Bio und Fair</div>
+              <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Und das alles in bester Bio Qualität</p>
+          </div>
+          <div class="item--4"></div>
+            <!-- <div class="picture"></div>-->  
+        </div>
+      </section>
+      <section class="sorten">
+        <a href="/sub-page/">Link to Subpage</a>
+      </section>
+        <div>Home</div>
     </main>
-    <script src="/js/index.js" type="module"></script>
+      <script src="/js/index.js" type="module"></script>
   </body>
-
-<!--
-    <section class="grid-test">
-
-      <div class="row">
-          <div class="col-1-of-2">
-          col 1 of 2
-          </div>
-          <div class="col-1-of-2">
-          col 1 of 2
-          </div>
-      </div>
-
-      <div class="row">
-        <div class="col-1-of-3">
-            col 1 of 3
-        </div>
-        <div class="col-1-of-3">
-            col 1 of 3
-        </div>
-        <div class="col-1-of-3">
-            col 1 of 3
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-1-of-3">
-            col 1 of 3
-        </div>
-        <div class="col-2-of-3">
-            col 2 of 3
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-1-of-4">
-            col 1 of 4
-        </div>
-        <div class="col-1-of-4">
-            col 1 of 4
-        </div>
-        <div class="col-1-of-4">
-            col 1 of 4
-        </div>
-        <div class="col-1-of-4">
-            col 1 of 4
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-1-of-4">
-            col 1 of 4
-        </div>
-        <div class="col-2-of-4">
-            col 2 of 4
-        </div>
-        <div class="col-1-of-4">
-            col 1 of 4
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-1-of-4">
-            col 1 of 4
-        </div>
-        <div class="col-3-of-4">
-            col 3 of 4
-        </div>
-      </div>
-  </section>
--->
-  <footer></footer>
+  <footer>
+  </footer>
 </html>

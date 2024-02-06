@@ -1,0 +1,14 @@
+.cafe-fair {
+    &.container{
+       display: grid; 
+       grid-template-rows: minmax( 150px, min-content);
+       grid-template-columns: min-content;
+
+       &--1{
+        align-content: center;
+
+       }
+
+
+    }
+}

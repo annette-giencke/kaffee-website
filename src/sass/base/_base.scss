@@ -13,10 +13,17 @@ html {
 
 body {
     font-family: 'Roboto';
-    font-weight: 400;
+    font-weight: 40rem;
     font-size: 1.2rem;
     line-height: 2rem;
     color: $black;
     box-sizing: border-box;
     background-color: $light-grey;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
 }
