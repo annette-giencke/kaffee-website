@@ -1,3 +1,12 @@
+.rustica {
+    display: flex;
+    top: -35rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
 .cafe-fair {
     & container-1-4{
        display: grid; 

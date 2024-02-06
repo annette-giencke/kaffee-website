@@ -1,15 +1,36 @@
-.rustica {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 64px;
-    color: $white;
-    position: relative;
-}
 .button-dark {
+    color: $white;
+    background-color: $anthrazit;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px;
+    position: absolute;
+    left: 45%;
+}
+
+.button-dark-trans {
+    color: $white;
+    background-color: $anthrazit;
+    text-align: center;
+    border-radius: 5px;
+    border: color transparent 2px;
+    position: absolute;
+    top: 35vh;
+    left: 45%;
+}
+.button-hell {
+    color: $white;
+    background-color: $anthrazit;
+    text-align: center;
+    border: $white 2px 5px;
+    position: absolute;
+    left: 45%;
+}
+.button-transparent {
     color: $anthrazit;
+    background-color: transparent;
+    text-align: center;
+    left: 45%;
     position: absolute;
     bottom: 10vh;
-    
 }
