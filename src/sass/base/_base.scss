@@ -16,8 +16,13 @@ body {
     font-size: 1.2rem;
     line-height: 2rem;
     color: $black;
-    box-sizing: border-box;
     background-color: $light-grey;
     margin: 0;
-    padding: 0;
+   
 }
+section {
+    box-sizing: border-box; 
+    margin: 2rem;
+    padding: 2rem;
+}
+

@@ -3,17 +3,19 @@
     background-size: cover;
     background-position: center;
     height: 75vh;
+    //fill: opacify( $color: $black , 30%);
 
 .nav-bar {
-        max-width: 0 auto;
-        display: flex;
-        background-color: $white;
-        
-    }
-    &-logo, 
-    &-burger-menue {
-        fill: $black;
-        align-content: space-between;
-    }
+            max-width: 0 auto;
+            display: flex;
+            background-color: $white;
+            align-content: center;
+            align-items: space-around;
+        }
+        &-logo, 
+        &-burger-menue {
+            color: green;
+            
+        }
 }
     

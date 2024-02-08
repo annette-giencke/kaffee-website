@@ -1,36 +1,48 @@
 .button-dark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $black;
     color: $white;
-    background-color: $anthrazit;
-    text-align: center;
+    border: $black;
     border-radius: 5px;
     border: 2px;
-    position: absolute;
-    left: 45%;
-}
+    width: 11rem;
+    padding: 1rem;
 
-.button-dark-trans {
-    color: $white;
-    background-color: $anthrazit;
-    text-align: center;
-    border-radius: 5px;
-    border: color transparent 2px;
-    position: absolute;
-    top: 35vh;
-    left: 45%;
-}
-.button-hell {
-    color: $white;
-    background-color: $anthrazit;
-    text-align: center;
-    border: $white 2px 5px;
-    position: absolute;
-    left: 45%;
-}
-.button-transparent {
-    color: $anthrazit;
-    background-color: transparent;
-    text-align: center;
-    left: 45%;
-    position: absolute;
-    bottom: 10vh;
+    &-header {
+        display: flex;
+        justify-content: center;
+        background-color: $black;
+        color: $white;
+        border: $black;
+        border-radius: 5px;
+        border: 3px;
+        position: absolute;
+        bottom: -10vh;
+        width: 11rem;
+        padding: 1rem;
+        }
+    &--hell {
+        display: flex;
+        justify-content: center;
+        background-color: $black;
+        color: $white;
+        border: $white;
+        border-radius: 5px;
+        border: 2px;
+        width: 11rem;
+        padding: 1rem;
+    }   
+    &--transparent {
+        display: flex;
+        justify-content: center;
+        background-color: transparent;
+        color: $white;
+        border: $black;
+        border-radius: 5px;
+        border: 2px;
+        width: 11rem;
+        padding: 1rem;
+    }
 }
