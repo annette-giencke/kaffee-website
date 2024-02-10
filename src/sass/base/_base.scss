@@ -3,7 +3,7 @@
 *::before {
     margin:  0;
     padding: 0;
-    box-sizing: inherit;
+    //box-sizing: border-box;
 }
 
 html {
@@ -18,11 +18,29 @@ body {
     color: $black;
     background-color: $light-grey;
     margin: 0;
-   
+}
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $black;
+    font-family: 'Roboto';
+    font-weight: 40rem 90rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: $white;
+    border: $black;
+    border-radius: 5px;
+    border: 2px;
+    width: 11rem;
+    padding: 1rem;
 }
 section {
     box-sizing: border-box; 
     margin: 2rem;
     padding: 2rem;
 }
-
+footer {
+    background-color: $black;
+    color: invert($color: #000000);
+}

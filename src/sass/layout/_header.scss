@@ -3,19 +3,40 @@
     background-size: cover;
     background-position: center;
     height: 75vh;
-    //fill: opacify( $color: $black , 30%);
+    ::after {
+        content: fill;
+        background-color: rgba(0, 0, 0, 0.5);
+        //opacity: $black 6%;
+    }
+.nav .main  {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    max-width: 100vw;
+    background-color: $white;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
 
-.nav-bar {
-            max-width: 0 auto;
-            display: flex;
-            background-color: $white;
-            align-content: center;
-            align-items: space-around;
+        &--logo {
+            display: inline-block;
+            //align-items: space-around;
         }
-        &-logo, 
-        &-burger-menue {
-            color: green;
-            
-        }
+        &.menue .burger {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            z-index: 1;
+            &--ul {
+                list-style: none;
+    
+                &--li {
+                    color: green; 
+                }
+            }  
+        } 
+    
+    }   
 }
     
