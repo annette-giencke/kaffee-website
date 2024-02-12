@@ -3,11 +3,12 @@
     background-size: cover;
     background-position: center;
     height: 75vh;
-    ::after {
-        content: fill;
-        background-color: rgba(0, 0, 0, 0.5);
-        //opacity: $black 6%;
-    }
+    //content: fill;
+    background-color: rgba(0, 0, 0, 0.5);
+    //opacity: $black 6%;
+   // ::after {
+        
+   // }
 .navigation  {
     position: relative;
     display: flex;

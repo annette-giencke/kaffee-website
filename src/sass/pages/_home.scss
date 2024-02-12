@@ -8,7 +8,7 @@
 
 }
 .cafe-fair {
-    & container-1-4{
+    container-1-4{
        display: grid; 
        grid-template-rows: minmax( 150px, min-content);
        grid-template-columns: min-content;
@@ -20,4 +20,21 @@
 
 
     }
+}
+.sorten {
+    background-color: $black;
+    
+
+    .u-heading-second {
+        color: $white;
+    }
+    .kaffee-costarica {
+        margin: 1rem;
+    }
+}
+.herkunft {
+    background-image: url(images/src/images/FEND-Coffee-bags-2.png);
+    background-size: cover;
+    background-position: center;
+
 }

@@ -1,6 +1,6 @@
 .button {
     
-    --dark {
+    &-dark {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -12,7 +12,7 @@
         width: 11rem;
         padding: 1rem;
     }
-    --header {
+    &-header {
         //display: flex;
         //justify-content: center;
         //background-color: $black;
@@ -25,18 +25,17 @@
         width: 11rem;
         padding: 1rem;
     }
-    --hell {
+    &-hell {
         display: flex;
         justify-content: center;
         background-color: $black;
         color: $white;
-        border: $white;
+        border: $white solid 2px;
         border-radius: 5px;
-        border: 2px;
         width: 11rem;
         padding: 1rem;
     }   
-    --transparent {
+    &-transparent {
         display: flex;
         justify-content: center;
         background-color: transparent;
