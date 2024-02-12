@@ -8,10 +8,9 @@
         background-color: rgba(0, 0, 0, 0.5);
         //opacity: $black 6%;
     }
-.nav .main  {
+.navigation  {
     position: relative;
-    display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    display: flex;
     max-width: 100vw;
     background-color: $white;
     justify-content: space-around;
@@ -19,24 +18,28 @@
     padding: 0;
     z-index: 1;
 
-        &--logo {
-            display: inline-block;
-            //align-items: space-around;
-        }
-        &.menue .burger {
-            display: inline-block;
-            margin: 0;
-            padding: 0;
-            z-index: 1;
-            &--ul {
-                list-style: none;
+    .logo {
+        display: inline-block;
+        min-width: 45%;
+        color: red;
+        //align-items: space-around;
+    }
+    .burger {
+        min-width: 45%;
+        margin: 0;
+        padding: 0;
+        z-index: 1;
+        ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-around;
+            li {
+                display: inline-block;
+                color: green; 
+            }
+        }  
+    } 
     
-                &--li {
-                    color: green; 
-                }
-            }  
-        } 
-    
-    }   
+}   
 }
     
