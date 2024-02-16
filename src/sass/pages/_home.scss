@@ -23,18 +23,45 @@
 }
 .sorten {
     background-color: $black;
-    
 
     .u-heading-second {
         color: $white;
     }
     .kaffee-costarica {
-        margin: 1rem;
+        margin: 0;
+       
     }
+
 }
 .herkunft {
-    background-image: url(images/src/images/FEND-Coffee-bags-2.png);
+    background-image: url("/images/FEND-Coffee-bags-2.png");
     background-size: cover;
     background-position: center;
+    display: grid;
+    text-align: center;
+    color: $white;
 
+    .button-herkunft {
+        justify-self: center;
+    }
+    
+    .u-heading-third {
+        color: $white;
+        justify-self: center;
+    }
+}
+.drin {
+    display: grid;
+    justify-content: center;
+
+    .drin-item {
+        justify-items: auto;
+    }
+    
+
+}
+.komm {
+    .u-heading-second {
+        right: -12rem;
+    }
 }
