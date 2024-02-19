@@ -3,11 +3,12 @@
 *::before {
     margin:  0;
     padding: 0;
-    //box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 html {
     font-size: 62.5%;
+    box-sizing: border-box;
 }
 
 body {
@@ -43,4 +44,9 @@ section {
 footer {
     background-color: $black;
     color: invert($color: #000000);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
